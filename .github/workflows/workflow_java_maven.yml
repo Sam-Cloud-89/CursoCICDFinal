@@ -42,7 +42,7 @@ jobs:
       # 4. Construye y sube la imagen
       - name: Construir y subir imagen Docker
         uses: docker/build-push-action@v5
-        with:
+        with: 
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/imagen_spring_java:0.1
