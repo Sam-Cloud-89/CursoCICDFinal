@@ -16,7 +16,7 @@ public class ApiRest {
 	{
 		return "Hola que tal";
 	}
-
+ 
 	@GetMapping("/miSaludo2")
 	public String saludar2()
 	{
