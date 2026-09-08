@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7
     - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
@@ -33,7 +33,7 @@ jobs:
     steps:
       # 1. Copia el código fuente de tu repositorio al runner
       - name: Descargar codigo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
         # 2. Prepara el entorno BuildKit de Docker para compilaciones avanzadas
       - name: Configurar Docker Buildx
