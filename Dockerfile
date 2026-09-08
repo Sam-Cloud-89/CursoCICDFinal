@@ -67,4 +67,4 @@ COPY --from=builder /build/target/prueba_3-0.0.1.war /usr/local/tomcat/webapps/R
 EXPOSE 8080
 
 # Comando para iniciar el servicio de Tomcat en primer plano dentro del contenedor.
-CMD ["catalina.sh", "run"]
+CMD ["catalina.sh", "run"] 
